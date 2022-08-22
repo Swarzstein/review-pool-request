@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar{
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background: purple;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
+#header-img{
+  height: 70px;
+  width: auto;
+
+}
+.video{
+  text-align: center;
+  padding-top: 50px;
+}
+#video{
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 600px){
+#header-img {
+  display: none;
+}
+}
+section{
+  padding: 20px 30px;
+}
+form{
+  padding: 20px 30px;
+
+}
+form h2{
+    padding-bottom: 30px;
+  }
